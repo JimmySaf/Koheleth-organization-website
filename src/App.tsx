@@ -149,7 +149,7 @@ const leaders = [
               </h1>
 
               <p className="text-sm tracking-wide text-yellow-300">
-                We are saved to serve
+                International Fellowship
               </p>
 
             </div>
@@ -871,7 +871,7 @@ const leaders = [
                 </h2>
 
                 <p className="text-sm text-slate-400">
-                  International org
+                  International Fellowsip
                 </p>
               </div>
             </div>
@@ -924,12 +924,12 @@ const leaders = [
 
             <div className="flex flex-col gap-3 text-slate-400">
 
-              <a href="#" className="transition hover:text-yellow-400">
+              <a href="https://www.facebook.com/profile.php?id=61577094690160" className="transition hover:text-yellow-400">
                 Facebook
               </a>
 
-              <a href="#" className="transition hover:text-yellow-400">
-                Instagram
+              <a href="https://chat.whatsapp.com/Jbc2PomfBovHLwJlAGnR2F?mlu=2&s=cl&p=a" className="transition hover:text-yellow-400">
+                Whatsapp
               </a>
 
               <a href="#" className="transition hover:text-yellow-400">
