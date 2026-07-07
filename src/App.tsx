@@ -459,9 +459,9 @@ const leaders = [
   </div>
 </section>
 {/* LEADERS SECTION */}
-<section className="mt-24 overflow-hidden">
+<section id="leaders" className="mt-24">
 
-  <div className="text-center mb-14">
+  <div className="mb-16 text-center">
 
     <p className={sectionTag}>
       Leadership Team
@@ -478,26 +478,35 @@ const leaders = [
 
   </div>
 
-  {/* Marquee Container */}
-  <div className="leader-marquee">
+  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
-    <div className="leader-track">
+    {leaders.map((leader, index) => (
+      <div
+        key={index}
+        className="leader-reveal group relative overflow-hidden rounded-[32px] border border-white/10 bg-white/5 p-4 backdrop-blur-md"
+        style={{
+          animationDelay: `${index * 0.2}s`,
+        }}
+      >
 
-      {[...leaders, ...leaders].map((leader, index) => (
-        <div
-          key={index}
-          className="leader-card group"
-        >
+        {/* Glow */}
+        <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/0 via-yellow-500/5 to-yellow-500/0 opacity-0 transition duration-500 group-hover:opacity-100" />
 
-         <div className="overflow-hidden rounded-3xl">
-  <img
-    src={leader.image}
-    alt={leader.name}
-    className="h-96 w-full object-cover object-center transition duration-700 group-hover:scale-110"
-  />
-</div>
+        {/* Image */}
+        <div className="overflow-hidden rounded-3xl">
 
-          <h3 className="mt-5 text-xl font-bold">
+          <img
+            src={leader.image}
+            alt={leader.name}
+            className="h-[420px] w-full object-cover object-center transition-all duration-700 group-hover:scale-110"
+          />
+
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 p-5 text-center">
+
+          <h3 className="text-2xl font-bold">
             {leader.name}
           </h3>
 
@@ -505,10 +514,12 @@ const leaders = [
             {leader.role}
           </p>
 
-        </div>
-      ))}
+          <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-yellow-400 transition-all duration-500 group-hover:w-28" />
 
-    </div>
+        </div>
+
+      </div>
+    ))}
 
   </div>
 
