@@ -98,7 +98,7 @@ const leaders = [
   {
     name: "Humphrey Thuva",
     role: "Director",
-    image: "/leaders/humphrey2.jpg",
+    image: "/leaders/humphrey2.png",
   },
   {
     name: "Steven Mwanengo",
@@ -255,7 +255,7 @@ const leaders = [
         <div className="relative z-10 max-w-4xl">
 
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-yellow-400">
-            International Christian Organization
+            International Christian Fellowship
           </p>
 
           <h1 className="mb-6 text-5xl font-extrabold leading-tight md:text-7xl">
