@@ -40,7 +40,7 @@ export default function ChristianOrganizationWebsite() {
   const events = [
     {
       title: 'Ngerenya Conference',
-      date: 'August 20, 2026',
+      date: 'August 22, 2026',
       location: 'Ngerenya, Kilifi-Kenya',
     },
 
@@ -52,8 +52,8 @@ export default function ChristianOrganizationWebsite() {
 
     {
       title: 'First Gathering',
-      date: 'June, 2025',
-      location: 'Barani, Kilifi',
+      date: 'December 12, 2026',
+      location: 'Crossroads Fellowship Church, Vipingo-Kilifi',
     },
   ];
 
@@ -748,7 +748,7 @@ const leaders = [
         </h4>
 
         <p className="mt-2 text-slate-300">
-          +254 746 010 497
+         0708452782
         </p>
 
       </div>
@@ -765,7 +765,7 @@ const leaders = [
         </h4>
 
         <p className="mt-2 text-slate-300 break-all">
-          info@koheleth.org
+          kohelethfelloship@gmail.com
         </p>
 
       </div>
@@ -882,7 +882,7 @@ const leaders = [
                 </h2>
 
                 <p className="text-sm text-slate-400">
-                  International Fellowsip
+                  International Fellowship
                 </p>
               </div>
             </div>
