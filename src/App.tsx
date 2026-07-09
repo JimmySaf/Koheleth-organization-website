@@ -122,7 +122,7 @@ const leaders = [
    {
     name: "Charles Kahingo",
     role: "Ministry Advisor",
-    image: "/leaders/.jpeg",
+    image: "/leaders/charles.png",
   },
 ];
   return (
