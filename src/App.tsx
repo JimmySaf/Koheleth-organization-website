@@ -81,9 +81,15 @@ export default function ChristianOrganizationWebsite() {
       speaker: 'Minister Steven',
     },
     {
+      title:'The Foundation of a Believer',
+      speaker:'Minister Charles Kahingo',
+
+    },
+    {
       title: 'The Work of Ministry',
       speaker: 'Minister Daniel Bandika',
     },
+   
     {
       title: 'Redemption through the Blood',
       speaker: 'Minister Frankline Hamisi',
