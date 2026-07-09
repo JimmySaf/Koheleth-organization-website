@@ -89,7 +89,10 @@ export default function ChristianOrganizationWebsite() {
       title: 'The Work of Ministry',
       speaker: 'Minister Daniel Bandika',
     },
-   
+   {
+     title:'New Identity In CHRIST',
+     speaker:'Charles Kahingo',
+   },
     {
       title: 'Redemption through the Blood',
       speaker: 'Minister Frankline Hamisi',
