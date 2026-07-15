@@ -112,7 +112,7 @@ const leaders = [
   {
     name: "Steven Mwanengo",
     role: "Coordinator",
-    image: "/leaders/.png",
+    image: "/leaders/stephen.jpeg",
   },
   {
     name: "Daniel Bandika",
