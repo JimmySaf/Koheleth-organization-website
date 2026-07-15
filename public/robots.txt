@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap:https://koheleth-organization-website.vercel.app/sitemap.xmlUser-agent: *
+Sitemap:https://koheleth-fellowship-website.vercel.app/sitemap.xmlUser-agent: *
 Allow: /
