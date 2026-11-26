@@ -1,75 +1,25 @@
-# React + TypeScript + Vite
+# KOHELETH International Fellowship — Classic Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the refreshed React + TypeScript + Vite frontend for the KOHELETH International Fellowship website.
 
-Currently, two official plugins are available:
+## Design direction
+- Classic editorial style with warm ivory, forest green and muted antique-gold accents.
+- Playfair Display headings paired with clean DM Sans body text.
+- Responsive navigation, mobile layouts and restrained hover effects.
+- Existing fellowship information, leader portraits, event details, contact information, logo and social links are retained.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Replace your project
+1. Make a backup of your current project folder.
+2. Extract this ZIP file.
+3. Replace the contents of your existing project folder with the extracted project contents.
+4. Open the project folder in VS Code.
+5. Run `npm install` and then `npm run dev`.
+6. To create a production build, run `npm run build`.
 
-## React Compiler
+Do not copy an old `node_modules` folder. Reinstall dependencies with `npm install` on your computer.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Notes
+- The contact form opens the visitor's default email application with the message prefilled. It does not send mail through a server.
+- Sermon titles are displayed as teaching topics; no audio/video links were present in the supplied project.
+- The supplied event dates and fellowship schedule have been preserved. Confirm dates and times before publishing if they have changed.
+- Google Fonts are loaded from Google Fonts, so custom typography requires an internet connection. System fallbacks remain available.
